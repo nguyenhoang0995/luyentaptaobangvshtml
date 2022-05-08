@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo bảng với 3 hàng mỗi hàng 4 ô</title>
+</head>
+<body>
+    <table style="width: 80%;" border="3">
+        <!-- tr: table row  (tạo hàng)-->
+        <!-- th: table header ( tạo nội dung hàng tiêu đề) -->
+        <!-- td: table data (tạo nội dung của từng ô trong 1 hàng)-->
+        <tr>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+        </tr>
+        <tr>
+            <td colspan="2" >a</td> <!--colspan: gộp ô theo chiều ngang-->
+            <td rowspan="2">b</td> <!--rowspan: gộp ô theo chiều dọc-->
+            <td>c</td>
+            <td>d</td>
+        </tr>
+        <tr>
+            <td>e</td>
+            <td>f</td>
+            <td>g</td>
+            <td>h</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
